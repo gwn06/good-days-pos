@@ -1,0 +1,150 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:4726413033350954970",
+      "lastPropertyId": "4:3230930323191201245",
+      "name": "Employee",
+      "properties": [
+        {
+          "id": "1:3594053509574668660",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2378321769693862431",
+          "name": "firstName",
+          "type": 9
+        },
+        {
+          "id": "3:7049475272484674522",
+          "name": "lastName",
+          "type": 9
+        },
+        {
+          "id": "4:3230930323191201245",
+          "name": "username",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:3734884152119856401",
+      "lastPropertyId": "10:216822566418761300",
+      "name": "ProductInfo",
+      "properties": [
+        {
+          "id": "1:8607591811126885487",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6953196194479333638",
+          "name": "quantitySold",
+          "type": 6
+        },
+        {
+          "id": "3:3623235811739059767",
+          "name": "availableQuantity",
+          "type": 6
+        },
+        {
+          "id": "4:2511352043449277538",
+          "name": "costPrice",
+          "type": 8
+        },
+        {
+          "id": "5:7578612065083952466",
+          "name": "sellingPrice",
+          "type": 8
+        },
+        {
+          "id": "6:5024946536200255690",
+          "name": "category",
+          "type": 9
+        },
+        {
+          "id": "7:1708256697018448235",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "8:8484748310661373194",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "9:660646891704973475",
+          "name": "expiryDate",
+          "type": 10
+        },
+        {
+          "id": "10:216822566418761300",
+          "name": "batchList",
+          "type": 30
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:8588775238342490100",
+      "lastPropertyId": "7:944034556139121825",
+      "name": "SalesHistory",
+      "properties": [
+        {
+          "id": "1:8843209102120097815",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:5229486830696691819",
+          "name": "employeeId",
+          "type": 6
+        },
+        {
+          "id": "3:9040754442838603067",
+          "name": "date",
+          "type": 10
+        },
+        {
+          "id": "4:4141082355179004696",
+          "name": "shoppingCart",
+          "type": 9
+        },
+        {
+          "id": "5:8335507572179008551",
+          "name": "discount",
+          "type": 8
+        },
+        {
+          "id": "6:1953011415695177947",
+          "name": "subtotal",
+          "type": 8
+        },
+        {
+          "id": "7:944034556139121825",
+          "name": "grandTotal",
+          "type": 8
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:8588775238342490100",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
